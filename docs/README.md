@@ -44,6 +44,11 @@ El pipeline permite configurar algunas variables de entorno:
 ### Ruta a la lista de dominios
 `export DOMAINS_FILE=docs/domains.txt`
 
+**Ejecutar pruebas**
+```bash
+make test
+```
+
 ## Ejecutar pipeline principal
 ```bash
 make run
@@ -51,9 +56,16 @@ make run
 less out/resoluciones.csv
 ```
 
-**Ejecutar pruebas**
+## Ejecutar pipeline de history
 ```bash
-make test
+make history
+# revisar resultados en out
+```
+
+## Ejecutar pipeline de diff
+```bash
+make diff
+# revisar resultados en out
 ```
 
 **Videos:**
