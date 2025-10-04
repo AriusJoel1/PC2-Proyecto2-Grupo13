@@ -68,6 +68,17 @@ make diff
 # revisar resultados en out
 ```
 
+## Ejecutar pipeline de pack
+```bash
+make pack
+# revisar resultados en dist/
+```
+
+## Ejecutar pipeline de clean
+```bash
+make clean
+```
+
 **Videos:**
 
 **Video-Sprint-1**:
